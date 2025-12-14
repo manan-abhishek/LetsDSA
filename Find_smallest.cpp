@@ -10,12 +10,16 @@ int main(){
     int largest = INT_MIN;
 
     for(int i = 0; i<size; i++){
-                                      //smallest = min(nums[i] , smallest);
-            smallest = min(nums[i], smallest);
-            largest = max(nums[i], largest);
+                    
+       
+            smallest = min(nums[i], smallest);       // if(nums[i]< smallest
+             largest = max(nums[i], largest);         //    smallest = nums[i];
+                                                    // }
+           
         }
 
-    }
+    
     cout<<"smallest :"<<smallest<<endl;
+    cout<<"largest :"<<largest<<endl;
     return 0;
 }

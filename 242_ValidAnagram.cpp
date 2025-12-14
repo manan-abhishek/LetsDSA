@@ -25,7 +25,7 @@ int main() {
 
 
     string s = "anagram";
-    string t ="ram";
+    string t ="nagaram";
 
     bool result = obj.isAnagram(s, t);
 
